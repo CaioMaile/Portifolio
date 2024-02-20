@@ -1,9 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <h1>React App</h1>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import Pagina from "./Pagina";
+
+const contentor = document.getElementById("root")
+const origem = createRoot(contentor)
+
+origem.render( <Pagina/> )
