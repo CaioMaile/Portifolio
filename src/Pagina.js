@@ -1,4 +1,6 @@
 import React from "react";
+
+
 export default function Pagina() {
     return <main>
         <img src="./transferir.jpg" alt="foto" width="128"/>
@@ -29,7 +31,7 @@ export default function Pagina() {
         </div>
 
         <div>
-            <a href="caiomailesla@gmail.com"> Email </a> 
+            <a href="mailto:caiomailesla@gmail.com"> Email </a> 
             <a href="tel:+55(82)98185-9938"> Celular </a>
             <a href="https://github.com/CaioMaile"> Github </a> 
         </div>
